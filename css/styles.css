@@ -176,9 +176,10 @@ h1, h2, h3, p { margin: 0; }
 /* Clients */
 .clients { padding-block: 88px; display: flex; flex-direction: column; gap: 36px; }
 .clients .eyebrow { color: var(--muted); text-align: center; }
-.logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 24px 32px; }
-.logos img { width: 128px; filter: brightness(0); opacity: 0.7; }
-.logos .logo-meta { width: 104px; }
+.logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 24px; }
+.logos img { width: 120px; filter: brightness(0); opacity: 0.7; }
+.logos .logo-meta { width: 100px; }
+.logos .logo-bdo { width: 72px; }
 
 /* About */
 .about { display: flex; flex-wrap: wrap; gap: 40px 72px; align-items: flex-start; }
