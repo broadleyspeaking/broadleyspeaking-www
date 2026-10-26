@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;600&amp;family=Poppins:wght@300;500;600;700&amp;display=swap">
-<link rel="stylesheet" href="css/styles.css?v=2">
+<link rel="stylesheet" href="css/styles.css?v=3">
 
 <script type="application/ld+json">
 {
@@ -53,6 +53,7 @@
     </a>
     <nav class="nav" aria-label="Main">
       <a href="#services">Services</a>
+      <a href="#speaking">Speaking</a>
       <a href="#clients">Clients</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -98,6 +99,14 @@
           </div>
           <h3>Data engineering &amp; platforms</h3>
           <p>Resilient, scalable platforms shaped to your organisation, whether in high-risk settings or cloud ecosystems. Simple by design, so you're not reliant on hard-to-find data engineers.</p>
+          <div class="ai">
+            <p class="ai-label">On AI</p>
+            <ul>
+              <li>Write the business rules down once, where every person and every agent can read them.</li>
+              <li>Test AI like a control: fix the model version, keep known-answer tests and rerun them on a schedule.</li>
+              <li>Use the smallest tool that does the job. Often that isn’t a large language model.</li>
+            </ul>
+          </div>
         </article>
         <article class="card">
           <div class="card-top">
@@ -108,6 +117,14 @@
           </div>
           <h3>Virtual Chief AI &amp; Data Officer</h3>
           <p>We sit alongside your executive team to shape AI and data strategy and operating models, including for low-trust, high-risk environments, so your AI and data investment pays off.</p>
+          <div class="ai">
+            <p class="ai-label">On AI</p>
+            <ul>
+              <li>Own your workflow, not your prompts: plan for prices rising and models changing under you.</li>
+              <li>Buy the commodity, build your edge, and name the jobs before handing out licences.</li>
+              <li>Redesign the junior pathway on purpose, so your future managers still come through.</li>
+            </ul>
+          </div>
         </article>
         <article class="card">
           <div class="card-top">
@@ -118,12 +135,58 @@
           </div>
           <h3>Board member</h3>
           <p>Close the data gap in your board's skills matrix: ethics, privacy, confidentiality, risk, reputation and the commercials of your data, from GDPR to the Consumer Data Right.</p>
+          <div class="ai">
+            <p class="ai-label">On AI</p>
+            <ul>
+              <li>A model can suggest. A person decides, and a person signs.</li>
+              <li>Four questions for every AI decision: what if the price doubled, where is the human sign-off, can we get our data out, and does this need an LLM at all?</li>
+              <li>Ethics before privacy, and “no AI” is not a policy.</li>
+            </ul>
+          </div>
         </article>
       </div>
     </div>
   </section>
 
-  <section id="clients" aria-labelledby="clients-title">
+  <section id="speaking">
+    <div class="wrap section">
+      <div class="section-head">
+        <p class="eyebrow">Speaking</p>
+        <h2 class="title">AI talks from a practitioner, not a futurist<span class="dot">.</span></h2>
+        <p class="section-lede">Plain-English keynotes, leadership sessions and workshops on what AI actually is, what it does to people, and what to do on Monday. Built from products running in production, not from reading about them.</p>
+      </div>
+      <article class="talk">
+        <div class="talk-copy">
+          <p class="talk-label">Recent talk</p>
+          <h3>hum<span class="dot">AI</span>n: human in the loop with AI</h3>
+          <p class="talk-meta">BDO NZ Partner Conference · October 2026 · 2 hours</p>
+          <p>A practitioner’s view for accounting partners: what AI actually is, who owns your intelligence, what it is doing to people and the profession, and what to do on Monday. Attendees took home three read-only AI skills for Xero and myIR.</p>
+          <div class="actions">
+            <a class="btn btn-cyan" href="mailto:hello@broadleyspeaking.co.nz?subject=humAIn%20talk">Ask about this talk</a>
+          </div>
+        </div>
+        <figure class="talk-figure">
+          <img src="images/talk-sentiment.png" alt="Chart of AI sentiment by day across 1,567 of Drew’s own prompts to AI, 2 September to 12 October 2026: mildly negative and steady, with a net score of −0.35." width="1059" height="1171" loading="lazy">
+          <figcaption>From the talk: 1,567 of my own prompts to AI, scored for sentiment.</figcaption>
+        </figure>
+      </article>
+      <h3 class="topics-title">Talks I give</h3>
+      <ol class="topics">
+        <li><strong>What AI actually is</strong><span>And what kind of bubble it is. Why a chatbot is one tool in the box, and often not the right one.</span></li>
+        <li><strong>Who owns your intelligence?</strong><span>Prices, suppliers, data sovereignty, and models that change under you.</span></li>
+        <li><strong>Foundations that work</strong><span>Business rules, clean data, privacy, and a policy that isn’t “no AI”.</span></li>
+        <li><strong>The human in the loop</strong><span>Juniors, fatigue, critical ignoring and the career ladder. A job, not a checkbox.</span></li>
+        <li><strong>Your clients are eating your lunch</strong><span>AI in finance and accounting, from faster horses to new AI-native firms.</span></li>
+        <li><strong>Knowledge that compounds</strong><span>What living with AI agents teaches about rework, memory and shared knowledge.</span></li>
+      </ol>
+      <div class="speaking-cta">
+        <p>Keynotes, partner and leadership sessions, board briefings and workshops.</p>
+        <a class="btn btn-solid" href="mailto:hello@broadleyspeaking.co.nz?subject=Speaking%20enquiry">Book a talk</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="band" aria-labelledby="clients-title">
     <div class="wrap clients">
       <p id="clients-title" class="eyebrow">Trusted by teams at</p>
       <div class="logos">
@@ -133,11 +196,12 @@
         <img src="images/internet-nz-black.png" alt="InternetNZ" width="480" height="174" loading="lazy">
         <img src="images/netsafe-black.png" alt="Netsafe" width="480" height="174" loading="lazy">
         <img src="images/nova-black.png" alt="Nova Energy" width="480" height="174" loading="lazy">
+        <img class="logo-meta" src="images/meta.svg" alt="Meta" width="948" height="191" loading="lazy">
       </div>
     </div>
   </section>
 
-  <section id="about" class="band">
+  <section id="about">
     <div class="wrap section about">
       <div class="about-side">
         <img src="images/icon.png" alt="" width="112" height="112" loading="lazy">
